@@ -1,6 +1,5 @@
 body {
-  font-family:"Roboto", sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 
 .logo {
@@ -21,57 +20,60 @@ body {
   text-decoration: none;
   color: #212121;
 }
-.list-item:hover {
+.list a:hover {
   color: #2196f3;
 }
-.list .list-item:active {
-    color:#2196f3
+.list-item:active {
+  color: #2196f3;
 }
-.portfolio {
-  color:#2196f3
-}
+
 .list-item-contact {
   text-decoration: none;
   color: #757575;
 }
-
-.button-list {
-  list-style-type: none;
- font-family: inherit;
-}
-button:hover {
-  background: #2196f3;
-  color: #ffffff;
-
-}
-
-.button-list-item {
-  cursor: pointer;
-  background: #f5f4fa;
-}
-.button-list .button-list-item:active {
-  background: #2196f3;
-  color: #ffffff;
-}
-
-.image-list {
-  list-style-type: none;
-}
-
-
-h3 {
+h1 {
   font-family: inherit;
+  font-size: 44px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 16px;
   font-weight: 700;
-  font-size: 18px;
+}
+h4 {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
   color: #212121;
 }
-p {
+.list-item-description {
   font-family: inherit;
+  font-size: 14px;
   font-weight: 400;
-  font-size: 16px;
   color: #757575;
 }
-
+h2 {
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  color: #212121;
+}
+h3 {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  color: #212121;
+}
+.ocupation {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
 .logo-footer {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -97,5 +99,5 @@ p {
   color: rgba(255, 255, 255, 0.6);
 }
 .background {
-  background-color: #2F303A;
+  background-color:  #2F303A;
 }
