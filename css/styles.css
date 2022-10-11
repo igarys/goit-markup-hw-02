@@ -62,7 +62,7 @@ h2 {
   font-weight: 700;
   color: #212121;
 }
-h3 {
+.workers-names {
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
@@ -100,4 +100,44 @@ h3 {
 }
 .background {
   background-color:  #2F303A;
+}
+
+
+/* Portfolio CSS  */
+
+.button-list {
+  list-style-type: none;
+ font-family: inherit;
+}
+button:hover {
+  background: #2196f3;
+  color: #ffffff;
+
+}
+
+.button-list-item {
+  cursor: pointer;
+  background: #f5f4fa;
+}
+.button-list .button-list-item:active {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.image-list {
+  list-style-type: none;
+}
+
+
+h3 {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  color: #212121;
+}
+p {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
 }
