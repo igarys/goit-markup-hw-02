@@ -1,10 +1,19 @@
+
+:root {
+  --primary-color: #212121;
+  --description-color: #757575;
+  --active-text-color: #ffffff;
+  --active-background-color: #2196f3;
+  --background-color: #2F303A;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
 .logo {
   text-decoration: none;
-  color: #2196f3;
+  color: var(--active-background-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -18,18 +27,18 @@ body {
 
 .list-item {
   text-decoration: none;
-  color: #212121;
+  color:var(--primary-color);
 }
 .list a:hover {
-  color: #2196f3;
+  color:var(--active-background-color)
 }
 .list-item:active {
-  color: #2196f3;
+  color:var(--active-background-color);
 }
 
 .list-item-contact {
   text-decoration: none;
-  color: #757575;
+  color: var(--description-color);
 }
 h1 {
   font-family: inherit;
@@ -38,8 +47,8 @@ h1 {
   color: #ffffff;
 }
 .button {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--active-background-color);
+  color: var(--active-text-color);
   font-family: inherit;
   font-size: 16px;
   font-weight: 700;
@@ -48,38 +57,38 @@ h4 {
   font-family: inherit;
   font-size: 14px;
   font-weight: 700;
-  color: #212121;
+  color: var(--primary-color);
 }
 .list-item-description {
   font-family: inherit;
   font-size: 14px;
   font-weight: 400;
-  color: #757575;
+  color: var(--description-color);
 }
 h2 {
   font-family: inherit;
   font-size: 36px;
   font-weight: 700;
-  color: #212121;
+  color: var(--primary-color);
 }
 .workers-names {
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
-  color: #212121;
+  color: var(--primary-color);
 }
 .ocupation {
     font-family: inherit;
     font-size: 16px;
     font-weight: 400;
-    color: #757575;
+    color: var(--description-color);
 }
 .logo-footer {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  color: #2196f3;
+  color: var(--active-background-color);
 }
 .address {
   font-weight: 400;
@@ -99,7 +108,7 @@ h2 {
   color: rgba(255, 255, 255, 0.6);
 }
 .background {
-  background-color:  #2F303A;
+  background-color: var(--background-color);
 }
 
 
@@ -110,8 +119,8 @@ h2 {
  font-family: inherit;
 }
 button:hover {
-  background: #2196f3;
-  color: #ffffff;
+  background:var(--active-background-color);
+  color: var(--active-text-color);
 
 }
 
@@ -120,8 +129,8 @@ button:hover {
   background: #f5f4fa;
 }
 .button-list .button-list-item:active {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--active-background-color);
+  color: var(--active-text-color);
 }
 
 .image-list {
@@ -133,11 +142,11 @@ h3 {
   font-family: inherit;
   font-weight: 700;
   font-size: 18px;
-  color: #212121;
+  color: var(--primary-color);
 }
 p {
   font-family: inherit;
   font-weight: 400;
   font-size: 16px;
-  color: #757575;
+  color: var(--description-color);
 }
