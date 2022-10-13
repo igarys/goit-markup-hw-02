@@ -65,6 +65,9 @@ h4 {
   font-weight: 400;
   color: var(--description-color);
 }
+.team-section {
+  background-color:  #F5F4FA;
+}
 h2 {
   font-family: inherit;
   font-size: 36px;
@@ -127,6 +130,8 @@ button:hover {
 .button-list-item {
   cursor: pointer;
   background: #f5f4fa;
+  border: 0;
+  border-radius: 4px;
 }
 .button-list .button-list-item:active {
   background: var(--active-background-color);
