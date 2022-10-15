@@ -18,6 +18,10 @@ body {
   font-weight: 700;
   font-size: 26px;
 }
+.logo-studio {
+  color: var(--primary-color)
+}
+
 .list {
   font-family: inherit;
   font-weight: 500;
@@ -93,10 +97,15 @@ h2 {
   font-size: 26px;
   color: var(--active-background-color);
 }
+
+.logo-footer .logo-studio {
+  color: var(--active-text-color);
+}
+
 .address {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
   list-style-type: none;
   color: #ffffff;
 }
@@ -119,7 +128,7 @@ h2 {
 
 .button-list {
   list-style-type: none;
- font-family: inherit;
+
 }
 button:hover {
   background:var(--active-background-color);
@@ -132,6 +141,9 @@ button:hover {
   background: #f5f4fa;
   border: 0;
   border-radius: 4px;
+   font-weight: 500;
+   font-family: inherit;
+
 }
 .button-list .button-list-item:active {
   background: var(--active-background-color);
